@@ -29,7 +29,7 @@ def sizeCheck(sizeGen,width_height):
 or higher for this 512 x 512 dimension to be created"""    
 def save(fileName,count):
     fileName1 = "C:/Users/User/Desktop/Python/pic/convert1920_1080" + str(count) + ".jpg"
-    print("Saving File Temporaryly ","convert1920_1080_" + str(count))
+    print("Saving File Temporarily ","convert1920_1080_" + str(count))
     cv2.imwrite(str(fileName1),fileName)    
 
 
@@ -53,7 +53,7 @@ def fileProcessing(sizeCheck,count):
     imTensor = ""
     for f in os.listdir('.'):
         
-        if f.endswith('.jpg') or f.endswith('.png'):# or f.endswith('.png')
+        if f.endswith('.jpg') or f.endswith('.png'):
               
             fileName1 = "C:/Users/User/Desktop/Python/pic/convert1920_1080"+ str(count) +".jpg"
                        
